@@ -1,0 +1,40 @@
+.navigation{
+    background: linear-gradient(black,purple);
+     display: flex;
+    justify-content: space-between;
+    /* background-color: antiquewhite; */
+    height: 250px;
+    align-items: center;
+    border-radius: 0 50px;
+    
+    
+}
+
+.heading-portion{
+   
+    margin: 0 auto;
+   
+    font-size: 50px;
+    color: aliceblue;
+    font-family: cursive;
+    text-shadow: 6px 6px 6px red;
+}
+.nav-menu{
+    display: flex;
+    margin-right: 100px;
+}
+.nav-menu ul{
+ list-style-type:none;
+  gap: 10px;
+ 
+}
+.nav-menu ul li{
+          
+}
+.nav-menu ul li a{
+      text-decoration: none;
+      font-size: 30px;
+      color: aliceblue;
+     font-family: fantasy;
+     padding: 15px;
+}
