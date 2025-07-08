@@ -6,6 +6,7 @@
     height: 250px;
     align-items: center;
     border-radius: 0 50px;
+    box-shadow: 10px 10px 10px black;
     
     
 }
@@ -37,4 +38,68 @@
       color: aliceblue;
      font-family: fantasy;
      padding: 15px;
+}
+ 
+
+.nav-menu ul li a:hover{
+      transition: 3s;
+  border-bottom:3px solid crimson;
+
+}
+
+/* main part */
+.banner{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/files/cover.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+    width: 80%;
+    height: 900px;
+    margin: 25px auto;
+    display: flex;
+    justify-content: space-between;
+       padding: 15px;}
+.banner-card{
+    width: 500px;
+    border: 3px solid orangered;
+    color: aliceblue;
+    background-color: rgb(27, 35, 27);
+    text-align: center;
+    margin-left: 450px;
+}
+.banner-login {
+         color: azure;
+         text-align: center;
+         margin-right: 200px;
+         margin-top: 100px;
+}
+.banner-login h1{
+         font-size: 50px;
+}
+ .form{
+    width: 500px;
+    font-size: 35px;
+    text-align: center;
+    
+    
+ }
+input[type="email"],input[type="password"]{
+  display: block;
+  width: 300px;
+  margin: 0px auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 50px;
+  box-sizing: border-box;
+  
+}
+
+.btn{
+    font-size: 25px;
+    background-color: crimson;
+    padding: 20px;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius:50px;
+   color: azure;
+   box-shadow: 10px 10px 10px black;
 }
