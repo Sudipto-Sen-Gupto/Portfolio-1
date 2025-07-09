@@ -134,10 +134,62 @@ input[type="email"],input[type="password"]{
     padding: 20px;
     box-shadow: 10px 10px 10px black;
     color:whitesmoke ; 
+    font-family: cursive;
     
 }
 .catbtn{
     width:200px;
     font-size: 30px;
     padding: 15px;
+}
+
+/* footer section */
+.foot{
+ background-color: rgb(103, 100, 100);
+ color: aliceblue;
+ margin: 0 auto;
+ width: 95%;
+ padding: 15px;
+ height: 300px;
+ display: flex;
+ justify-content: space-between;
+}
+
+.address{
+    font-size: 25px;
+    margin-left:260px;
+    margin-top: 40px;
+}
+.contact{
+font-size: 25px;
+display: flex;
+gap: 10px;
+align-items: center;
+margin-right:160px;
+}
+
+.contact ul{
+
+}
+.contact ul li{
+    list-style-type: none;
+}
+.contact ul li a{
+    text-decoration: none;
+    color: bisque;
+    font-size: 40px;
+}
+
+.footimg img{
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+.contact ul li a:hover{
+      border: 2px solid black;
+      background-color:coral ;
+      color: white;
+      box-shadow: 10px 10px 10px purple;
+      padding: 25px;
+      border-radius:50px 0;
 }
