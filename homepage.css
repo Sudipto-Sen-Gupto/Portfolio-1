@@ -49,15 +49,17 @@
 
 /* main part */
 .banner{
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/files/cover.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(files/cover.jpg);
    background-size: cover;
    background-repeat: no-repeat;
     width: 95%;
     height: 1100px;
-    margin: 25px auto;
+    margin: 0 auto;
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
-       padding: 15px;}
+       padding: 20px;
+    }
 .banner-card{
     width: 500px;
     border: 3px solid orangered;
@@ -90,8 +92,10 @@ input[type="email"],input[type="password"]{
   margin: 0px auto;
   margin-top: 20px;
   margin-bottom: 20px;
-  font-size: 50px;
+  font-size: 20px;
   box-sizing: border-box;
+  padding: 15px;
+  
   
 }
 
@@ -104,12 +108,25 @@ input[type="email"],input[type="password"]{
     border-radius:50px;
    color: azure;
    box-shadow: 10px 10px 10px black;
+
+}
+.cathead{
+    font-size: 40px;
+    width: 95%;
+    text-align: center;
+    background-color: rgb(40, 38, 38);
+    margin: 0 auto;
+    padding: 20px;
+    color: aliceblue;
+    text-shadow: 10px 10px 10px rgb(50, 40, 163);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 .catalog{
     background-color:rgb(65, 58, 58);
     width: 95%;
     margin: 0 auto;
-    padding: 15px;
+    padding: 20px;
     height: 1000px;
     overflow: scroll;
 }
@@ -149,7 +166,7 @@ input[type="email"],input[type="password"]{
  color: aliceblue;
  margin: 0 auto;
  width: 95%;
- padding: 15px;
+ padding: 20px;
  height: 300px;
  display: flex;
  justify-content: space-between;
